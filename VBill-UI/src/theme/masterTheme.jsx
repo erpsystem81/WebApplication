@@ -1,0 +1,18 @@
+export const T = {
+  headerBg: "#7b3f00",
+  sidebarBg: "#f5ebe0",
+  contentBg: "#fdf8f3",
+  menuText: "#7b3f00",
+  accent: "#c07830",
+  hover: "#5c2e00",
+  border: "#d4b896",
+  inputBg: "#fffdf9",
+  labelColor: "#5c2e00",
+  mutedText: "#a07040",
+  errorColor: "#c0392b",
+  white: "#ffffff",
+  rowHover: "#fef6ec",
+  tableHead: "#f5ebe0",
+  shadow: "rgba(123,63,0,0.10)",
+  rowStripe: "#fdf6ee",
+};

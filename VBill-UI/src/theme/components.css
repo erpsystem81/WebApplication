@@ -1,0 +1,128 @@
+/* PAGE */
+.page-container {
+  padding: 24px;
+}
+
+.page-header {
+  margin-bottom: 20px;
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.page-subtitle {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+/* CARD */
+.erp-card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  padding: 24px;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border-color);
+}
+
+/* FORM */
+.form-label {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: var(--text-primary);
+}
+
+.form-control-custom {
+  width: 100%;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-size: 14px;
+  transition: var(--transition);
+  background: white;
+}
+
+.form-control-custom:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 4px rgba(37,99,235,0.12);
+}
+
+/* BUTTONS */
+.btn-primary-custom {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.btn-primary-custom:hover {
+  background: var(--primary-hover);
+}
+
+.btn-secondary-custom {
+  background: white;
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  padding: 10px 18px;
+  border-radius: 10px;
+}
+
+/* TABLE */
+.erp-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.erp-table th {
+  background: #f8fafc;
+  padding: 14px;
+  font-size: 13px;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.erp-table td {
+  padding: 14px;
+  border-bottom: 1px solid var(--border-color);
+  font-size: 14px;
+}
+
+.erp-table tr:hover {
+  background: #f8fafc;
+}
+
+/* LAYOUT */
+.content-theme {
+  background: var(--layout-bg);
+  overflow-y: auto;
+}
+
+/* SIDEBAR */
+.sidebar-theme {
+  background: var(--sidebar-bg);
+  color: white;
+}
+
+.sidebar-theme .nav-link {
+  color: #cbd5e1;
+  padding: 12px 16px;
+  border-radius: 10px;
+  margin-bottom: 6px;
+}
+
+.sidebar-theme .nav-link:hover {
+  background: var(--sidebar-hover);
+  color: white;
+}
+
+.sidebar-theme .nav-link.active {
+  background: var(--primary);
+  color: white;
+}

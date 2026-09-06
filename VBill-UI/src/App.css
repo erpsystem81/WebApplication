@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.admin-layout {
+  min-height: 100vh;
+  background: #fdf8f3;
+}
+
+.layout-body {
+  display: flex;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background: #fdf8f3;
+}
+
+.sidebar-expanded {
+  width: 260px;
+  transition: 0.3s;
+}
+
+.sidebar-collapsed {
+  width: 70px;
+  transition: 0.3s;
+}
