@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Java / Maven
+VBill-Backend/target/
+VBill-Backend/.mvn/timing.properties
+VBill-Backend/.mvn/wrapper/maven-wrapper.jar
+
+# Spring Boot / environment
+VBill-Backend/.env
+VBill-Backend/.env.*
+!VBill-Backend/.env.example
+
+# Node / React / Vite
+VBill-UI/node_modules/
+VBill-UI/dist/
+VBill-UI/.env
+VBill-UI/.env.*
+!VBill-UI/.env.example
+
+# Logs
+*.log
+logs/
+
+# OS / temporary files
+*.tmp
+*.temp
